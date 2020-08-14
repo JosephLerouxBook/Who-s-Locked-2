@@ -12,7 +12,7 @@
         #$wshell = New-Object -ComObject Wscript.Shell
         $text = $output
         #$wshell.Popup($text,0,"Compte vérouiller",0x1)
-        Add-Content -path "W:\Pole_STS\unite_SPT\Apprenti\joseph\Scripts & Developpement\CheckLocked\test.txt" $output
+        Add-Content -path "test.txt" $output
         }    
     }
 }
